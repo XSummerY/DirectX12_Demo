@@ -1,0 +1,11 @@
+﻿  BoxApp.cpp
+  D3D12App.cpp
+G:\DirectX12_Demo\Demo2\D3D12App.cpp(548,77): error C2664: “HANDLE CreateEventExW(LPSECURITY_ATTRIBUTES,LPCWSTR,DWORD,DWORD)”: 无法将参数 2 从“bool”转换为“LPCWSTR”
+G:\DirectX12_Demo\Demo2\D3D12App.cpp(548,47): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\synchapi.h(647,1): message : 参见“CreateEventExW”的声明
+  ToolFunc.cpp
+G:\DirectX12_Demo\Demo2\ToolFunc.cpp(30,5): warning C4244: “参数”: 从“std::streamoff”转换到“SIZE_T”，可能丢失数据
+G:\DirectX12_Demo\Demo2\ToolFunc.cpp(70,32): warning C4244: “=”: 从“UINT64”转换到“LONG_PTR”，可能丢失数据
+  GameTimer.cpp
+  MathHelper.cpp
+  正在生成代码...
